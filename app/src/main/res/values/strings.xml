@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocalCall</string>
+    <string name="connect">Подключиться</string>
+    <string name="end_call">Завершить звонок</string>
+    <string name="mute">Выключить микрофон</string>
+    <string name="unmute">Включить микрофон</string>
+    <string name="settings">Настройки</string>
+    <string name="searching">Поиск устройств…</string>
+    <string name="no_peers">Нет устройств в сети</string>
+</resources>

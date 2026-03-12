@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2563EB</color>
+    <color name="primary_dark">#1D4ED8</color>
+    <color name="accent">#3B82F6</color>
+    <color name="background">#F1F5F9</color>
+    <color name="call_background">#1A1A2E</color>
+    <color name="end_call_red">#EF4444</color>
+    <color name="selected_peer">#DBEAFE</color>
+    <color name="unselected_peer">#FFFFFF</color>
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="online_green">#22C55E</color>
+    <color name="white">#FFFFFF</color>
+</resources>

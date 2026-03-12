@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- UTF-8 No BOM -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/call_background"
+    android:padding="32dp">
+
+    <!-- Pulsing ring icon -->
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/bg_avatar_circle"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📲"
+            android:textSize="52sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Входящий звонок"
+        android:textColor="#AAFFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tvCallerIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="192.168.1.x"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="2dp"
+        android:background="#44FFFFFF"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Reject -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnReject"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="16dp"
+            android:text="❌ Отклонить"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:backgroundTint="#EF4444"
+            app:cornerRadius="34dp" />
+
+        <!-- Accept -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAccept"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:text="✅ Принять"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            app:backgroundTint="#22C55E"
+            app:cornerRadius="34dp" />
+    </LinearLayout>
+
+</LinearLayout>

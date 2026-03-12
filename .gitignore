@@ -1,0 +1,47 @@
+# Gradle
+.gradle/
+build/
+*/build/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.hprof
+captures/
+.externalNativeBuild
+.cxx/
+
+# Kotlin
+.kotlin/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+eggs/
+
+# PyQt5 / PC
+PC_PyQt5_LocalCall/data/
+
+# Server
+Server/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets / Configs with sensitive data
+*.key
+*.secret

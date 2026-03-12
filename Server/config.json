@@ -1,0 +1,18 @@
+{
+  "host": "0.0.0.0",
+  "port": 45700,
+  "relay_udp_host": "0.0.0.0",
+  "relay_udp_port": 45701,
+  "relay_host_for_clients": "",
+  "enable_upnp": true,
+  "upnp_discovery_timeout_sec": 3,
+  "upnp_lease_duration_sec": 0,
+  "upnp_description": "LocalCallRelay",
+  "upnp_map_tcp": true,
+  "upnp_map_udp": true,
+  "client_timeout_sec": 12,
+  "session_timeout_sec": 120,
+  "socket_timeout_sec": 5,
+  "log_level": "DEBUG",
+  "log_file": "server.log"
+}
